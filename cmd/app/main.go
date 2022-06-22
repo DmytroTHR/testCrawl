@@ -11,7 +11,7 @@ const (
 	wholeTestTimeout = time.Minute
 	defaultTimeout   = 3 * time.Second
 	crawlingDepth    = 3
-	providedLink     = "https://4club.com.ua/light/"
+	providedLink     = "http://httpstat.us/"
 	resultFile       = "results.txt"
 )
 
@@ -35,5 +35,5 @@ func main() {
 	defer cancel()
 
 	execResult := app.DoCrawl(ctx)
-	app.WriteResultToFile(execResult)
+	WriteResultToFile(execResult)
 }

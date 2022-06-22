@@ -21,7 +21,7 @@ type ExecutionResult struct {
 	IsError    bool
 }
 
-func (app *Config) WriteResultToFile(execResult *sync.Map) {
+func WriteResultToFile(execResult *sync.Map) {
 	file, err := os.Create(resultFile)
 	if err != nil {
 		log.Panic(err)
@@ -32,7 +32,11 @@ func (app *Config) WriteResultToFile(execResult *sync.Map) {
 		curResult := value.(ExecutionResult)
 		strResult := fmt.Sprintf("Err:%t, %d - %s :\t%s\n",
 			curResult.IsError, curResult.StatusCode, curResult.Status, link)
-		file.WriteString(strResult)
+		_, err := file.WriteString(strResult)
+		if err != nil {
+			log.Println("Error when writing to file:", err)
+		}
+
 		return true
 	})
 
@@ -41,8 +45,12 @@ func (app *Config) WriteResultToFile(execResult *sync.Map) {
 
 func (app *Config) DoCrawl(ctx context.Context) *sync.Map {
 	res := sync.Map{}
+	endpointPath := app.URL.String()
 
-	col := prepareCrawler(app.URL)
+	col, err := prepareCrawler(app.URL)
+	if err != nil {
+		log.Panicf("Error initializing crawler for: %s - %v\n", endpointPath, err)
+	}
 
 	col.OnRequest(func(request *colly.Request) {
 		abortRequestOnContext(ctx, request)
@@ -63,13 +71,16 @@ func (app *Config) DoCrawl(ctx context.Context) *sync.Map {
 		})
 	})
 
-	endpointPath := app.URL.String()
 	res.Store(endpointPath, ExecutionResult{})
-	col.Visit(endpointPath)
+	err = col.Visit(endpointPath)
+	if err != nil {
+		log.Panicf("Error when trying to crawl: %s - %v\n", endpointPath, err)
+	}
 
 	col.Wait()
 
 	removeEmptyResults(&res)
+
 	return &res
 }
 
@@ -79,6 +90,7 @@ func removeEmptyResults(results *sync.Map) {
 		if (curResult == ExecutionResult{}) {
 			results.Delete(link)
 		}
+
 		return true
 	})
 }
@@ -91,7 +103,7 @@ func abortRequestOnContext(ctx context.Context, request *colly.Request) {
 	}
 }
 
-func prepareCrawler(urlToCrawl *url.URL) *colly.Collector {
+func prepareCrawler(urlToCrawl *url.URL) (*colly.Collector, error) {
 	regexForHost := fmt.Sprintf(".*%s", strings.ReplaceAll(urlToCrawl.Hostname(), ".", "\\."))
 	regexForEndpoint := fmt.Sprintf("%s.*", strings.ReplaceAll(urlToCrawl.String(), ".", "\\."))
 
@@ -105,14 +117,17 @@ func prepareCrawler(urlToCrawl *url.URL) *colly.Collector {
 		),
 	)
 
-	col.Limit(&colly.LimitRule{
+	err := col.Limit(&colly.LimitRule{
 		Parallelism:  runtime.NumCPU() / 2,
 		RandomDelay:  defaultTimeout / 10,
 		DomainRegexp: regexForHost,
 	})
+	if err != nil {
+		return nil, err
+	}
 	col.SetRequestTimeout(defaultTimeout)
 
-	return col
+	return col, nil
 }
 
 func searchForLinks(res *sync.Map, attrName string) func(e *colly.HTMLElement) {
@@ -121,7 +136,7 @@ func searchForLinks(res *sync.Map, attrName string) func(e *colly.HTMLElement) {
 		if link != "" {
 			if _, ok := res.Load(link); !ok {
 				res.Store(link, ExecutionResult{})
-				e.Request.Visit(link)
+				_ = e.Request.Visit(link)
 			}
 		}
 	}

@@ -1,53 +1,66 @@
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnye-elementy-dekora/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/uv-projectors/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/sledjashie-pushki/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/mirror-balls/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/drugie-kontrollery-svetovyh-priborov/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/zenitnye-prozhektora/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/dvizhushiesja-golovy/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/ustroistva-raspredeleniya-signalov-upravleniya/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnye-shtory/
-Err:false, 200 - OK :	https://4club.com.ua/light/stojki-pod-svetovye-pribory/podium-scena/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/zvezdnoe-nebo/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/led-color-changer/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/aksessuary-k-prozhektoram/
-Err:false, 200 - OK :	https://4club.com.ua/light/stojki-pod-svetovye-pribory/krepleniya-dlya-svetovyh-priborov/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/prozhektory-tipa-par/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnyy-pol/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/usb-dmx-interfeysy/
-Err:false, 200 - OK :	https://4club.com.ua/light/stojki-pod-svetovye-pribory/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/lampa-par/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/dmx-priemniki-peredatchiki/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/led-prozhektora/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/gazorazryadnaya-lampa/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/dimmernye-bloki/
-Err:false, 200 - OK :	https://4club.com.ua/light/
-Err:false, 200 - OK :	https://4club.com.ua/light/stojki-pod-svetovye-pribory/stoyki-dlya-svetovyh-priborov/
-Err:false, 200 - OK :	https://4club.com.ua/light/strobe/led-stroboskopy/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/skanera/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/svetovye-konsoli/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/disko-effekt/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/pulty-dmx/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/led-dvizhushiesja-golovy/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/kolorchejndzheryyn/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnye-svetilniki/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnaya-lenta/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/teatralnye-prozhektora/
-Err:false, 200 - OK :	https://4club.com.ua/light/strobe/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/optovolokonnye-lyustry/
-Err:false, 200 - OK :	https://4club.com.ua/light/led-oformlenie/svetodiodnye-lampy/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/centralnyj-effekt/
-Err:false, 200 - OK :	https://4club.com.ua/light/projectors/vsepogodnye-prozhektora/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/arhitekturnyj-svet/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/lampa-dlya-stroboskopa/
-Err:false, 200 - OK :	https://4club.com.ua/light/prostye-svetovye-pribory/led-disko-effekty/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/galogennaya-lampa/
-Err:false, 200 - OK :	https://4club.com.ua/light/lampy/ultrafioletovaya-lampa/
-Err:false, 200 - OK :	https://4club.com.ua/light/pribory-upravlenija-svetom/
-Err:false, 200 - OK :	https://4club.com.ua/light/strobe/lampovie-stroboskopy/
-Err:false, 200 - OK :	https://4club.com.ua/light/intellektualnyj-svet/led-skanery/
+Err:true, 306 -  :	http://httpstat.us/306
+Err:false, 200 - OK :	http://httpstat.us/
+Err:true, 418 - I'm a teapot :	http://httpstat.us/418
+Err:true, 413 - Request Entity Too Large :	http://httpstat.us/413
+Err:true, 408 - Request Timeout :	http://httpstat.us/408
+Err:true, 403 - Forbidden :	http://httpstat.us/403
+Err:true, 506 - Variant Also Negotiates :	http://httpstat.us/506
+Err:true, 415 - Unsupported Media Type :	http://httpstat.us/415
+Err:true, 300 - Multiple Choices :	http://httpstat.us/300
+Err:true, 520 -  :	http://httpstat.us/520
+Err:true, 416 - Requested Range Not Satisfiable :	http://httpstat.us/416
+Err:true, 305 - Use Proxy :	http://httpstat.us/305
+Err:true, 226 - IM Used :	http://httpstat.us/226
+Err:true, 530 -  :	http://httpstat.us/530
+Err:false, 201 - Created :	http://httpstat.us/201
+Err:true, 510 - Not Extended :	http://httpstat.us/510
+Err:true, 404 - Not Found :	http://httpstat.us/404
+Err:true, 402 - Payment Required :	http://httpstat.us/402
+Err:true, 505 - HTTP Version Not Supported :	http://httpstat.us/505
+Err:true, 421 - Misdirected Request :	http://httpstat.us/421
+Err:true, 527 -  :	http://httpstat.us/527
+Err:true, 521 -  :	http://httpstat.us/521
+Err:true, 412 - Precondition Failed :	http://httpstat.us/412
+Err:true, 400 - Bad Request :	http://httpstat.us/400
+Err:true, 423 - Locked :	http://httpstat.us/423
+Err:true, 206 - Partial Content :	http://httpstat.us/206
+Err:false, 200 - OK :	http://httpstat.us/200
+Err:true, 410 - Gone :	http://httpstat.us/410
+Err:true, 401 - Unauthorized :	http://httpstat.us/401
+Err:true, 406 - Not Acceptable :	http://httpstat.us/406
+Err:true, 409 - Conflict :	http://httpstat.us/409
+Err:true, 522 -  :	http://httpstat.us/522
+Err:true, 205 - Reset Content :	http://httpstat.us/205
+Err:true, 405 - Method Not Allowed :	http://httpstat.us/405
+Err:true, 508 - Loop Detected :	http://httpstat.us/508
+Err:true, 507 - Insufficient Storage :	http://httpstat.us/507
+Err:true, 500 - Internal Server Error :	http://httpstat.us/500
+Err:true, 523 -  :	http://httpstat.us/523
+Err:true, 429 - Too Many Requests :	http://httpstat.us/429
+Err:false, 200 - OK :	http://httpstat.us/css/main.css
+Err:true, 304 - Not Modified :	http://httpstat.us/304
+Err:true, 526 -  :	http://httpstat.us/526
+Err:true, 417 - Expectation Failed :	http://httpstat.us/417
+Err:true, 524 -  :	http://httpstat.us/524
+Err:true, 425 - Too Early :	http://httpstat.us/425
+Err:true, 503 - Service Unavailable :	http://httpstat.us/503
+Err:false, 202 - Accepted :	http://httpstat.us/202
+Err:false, 200 - OK :	http://httpstat.us/504
+Err:true, 428 - Precondition Required :	http://httpstat.us/428
+Err:true, 422 - Unprocessable Entity :	http://httpstat.us/422
+Err:true, 207 - Multi-Status :	http://httpstat.us/207
+Err:true, 501 - Not Implemented :	http://httpstat.us/501
+Err:true, 451 - Unavailable For Legal Reasons :	http://httpstat.us/451
+Err:true, 414 - Request URI Too Long :	http://httpstat.us/414
+Err:true, 431 - Request Header Fields Too Large :	http://httpstat.us/431
+Err:true, 511 - Network Authentication Required :	http://httpstat.us/511
+Err:true, 204 - No Content :	http://httpstat.us/204
+Err:true, 203 - Non-Authoritative Information :	http://httpstat.us/203
+Err:true, 407 - Proxy Authentication Required :	http://httpstat.us/407
+Err:false, 200 - OK :	https://httpstat.us
+Err:true, 411 - Length Required :	http://httpstat.us/411
+Err:true, 502 - Bad Gateway :	http://httpstat.us/502
+Err:true, 426 - Upgrade Required :	http://httpstat.us/426
+Err:false, 101 - Switching Protocols :	http://httpstat.us/101
+Err:true, 208 - Already Reported :	http://httpstat.us/208
+Err:true, 525 -  :	http://httpstat.us/525
