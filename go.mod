@@ -1,4 +1,4 @@
-module test505
+module crawler
 
 go 1.17
 
